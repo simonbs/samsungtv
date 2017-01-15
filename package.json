@@ -1,0 +1,34 @@
+{
+  "name": "samsungtv",
+  "version": "0.1.0",
+  "description": "Control a Samsung TV.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonbs/samsungtv.git"
+  },
+  "keywords": [
+    "samsung",
+    "tv",
+    "smart",
+    "home",
+    "turn",
+    "on",
+    "off",
+    "power"
+  ],
+  "author": "Simon B. Støvring",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonbs/samsungtv/issues"
+  },
+  "homepage": "https://github.com/simonbs/samsungtv#readme",
+  "dependencies": {
+    "request": "^2.79.0",
+    "wake_on_lan": "0.0.4",
+    "ws": "^1.1.1"
+  }
+}
