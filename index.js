@@ -10,7 +10,7 @@ function SamsungTV(macAddress, ipAddress, port, appName) {
   this.encodedAppName = new Buffer(this.appName).toString("base64");
 }
 
-exports.module = SamsungTV;
+module.exports = SamsungTV;
 
 SamsungTV.prototype.getServices = function() {
   var switchService = new Service.Switch(this.name);
